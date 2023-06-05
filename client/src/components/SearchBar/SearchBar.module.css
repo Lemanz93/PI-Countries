@@ -1,0 +1,30 @@
+.searchBar{
+        width: 200px;
+        height: 45px;
+        background-color: #fff;
+        border: 3px solid transparent;
+        border-radius: 3px;
+        line-height: 45px;
+        transition: .3s ease all;
+        font-size: 15px
+    
+    
+}
+
+.searchBar:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+.button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.searchBarContainer {
+    margin-bottom: 20px;
+}

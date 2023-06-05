@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+    background-color: #e7e7e7;
+    background-repeat: repeat;
+    
+}
+
+.formMain {
+    max-width: 800px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formGroup label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formGroupRadio {
+    display: flex;
+}
+.formGroupSelect {
+    position: relative;
+}
+.formInput {
+    width: 200px;
+    height: 45px;
+    background-color: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    line-height: 45px;
+    transition: .3s ease all;
+
+}
+
+.formSelect {
+    width: 50%;
+    height: 45px;
+    background-color: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    line-height: 45px;
+    transition: .3s ease all;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formInput:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formMain button {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #e5e5e5;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.displayCountries {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+}
+
+.goBack {
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+}

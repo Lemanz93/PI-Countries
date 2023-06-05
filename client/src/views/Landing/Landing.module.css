@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../../assets/world-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    position: relative;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid lightyellow;
+    background-color: lightblue;
+    border-radius: 25px;
+    
+}
+
+.title{
+    background-color: lightblue;
+    border-radius: 25px;
+}
+.title h1{
+    height: 100px;
+    width: 400px;
+    font-size: 80px;
+    text-align: center;
+    background-color: white;
+    color: gold;
+}
+
+.mainContainer button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}

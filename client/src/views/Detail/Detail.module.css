@@ -1,0 +1,81 @@
+.mainContainer {
+    height: 1000px;
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.flag{
+    height: 250px;
+    width: 500px;
+    margin-right: 30px;
+}
+
+.flag img {
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    border: 3px solid black;
+    
+}
+
+.details {
+    height: 400px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+.flagAndDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailsName {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.actAndValues {
+    width: 808px;
+    border: 4px solid gray;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.actAndValues h2 {
+    text-align: center;
+    
+}
+.activitiesContainer {
+    border: 4px solid gray;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 2em;
+    background-color: lightgray;
+}
+
+.goBack {
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.activitiesValues {
+    text-align: center;
+}
